@@ -1,0 +1,30 @@
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Compiled Binary files ---
+*.o
+*.obj
+*.exe
+*.out
+game_test
+enemy_test
+
+# --- IDE/Editor folders ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.filters
+
+# --- SFML / Build specific ---
+/bin/
+/obj/
