@@ -67,8 +67,8 @@ int main() {
     selector.setOutlineThickness(3.f);
 
     // SIZE YELLOW REC
-    float btnWidth = 160;   
-    float btnHeight = 50;   
+    float btnWidth = 180;
+    float btnHeight = 50;
 
     // ===== GAME LOOP =====
     while (window.isOpen()) {
@@ -120,7 +120,7 @@ int main() {
 
         // ===== SELECTOR =====
         selector.setSize(sf::Vector2f(btnWidth, btnHeight));
-        selector.setPosition(buttonPositions[selectedIndex]);
+        selector.setPosition(buttonPositions[selectedIndex].x + 10.f, buttonPositions[selectedIndex].y);
         window.draw(selector);
 
         // ===== BUTTON =====
